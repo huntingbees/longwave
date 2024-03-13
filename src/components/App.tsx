@@ -26,7 +26,7 @@ function App() {
               <LandingPage />
             </Route>
           </Switch>
-          <CommonFooter />
+          {/* <CommonFooter /> */}
         </BrowserRouter>
       </div>
     </CenteredColumn>

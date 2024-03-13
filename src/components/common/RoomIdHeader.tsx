@@ -51,9 +51,9 @@ function RoomMenu() {
       >
         <FontAwesomeIcon icon={faUndo} /> {t("roomidheader.reset_room")}
       </div>
-      <div {...menuItemProps} onClick={() => setPlayerName("")}>
+      {/* <div {...menuItemProps} onClick={() => setPlayerName("")}>
         <FontAwesomeIcon icon={faUserEdit} /> {t("roomidheader.change_name")}
-      </div>
+      </div> */}
     </div>
   );
 }
